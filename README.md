@@ -1,6 +1,6 @@
-#Project
+# Project
 This is my website
 
-#Features
-*Blogging
+# Features
+* Blogging
 
