@@ -230,7 +230,7 @@ if DJANGO_VERSION < (1, 9):
 ################
 
 INSTALLED_APPS = (
-    #"flat",
+    # "flat",
     "moderna",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -250,7 +250,7 @@ INSTALLED_APPS = (
     "mezzanine.galleries",
     "mezzanine.twitter",
     # "mezzanine.accounts",
-    # "mezzanine.mobile",
+    "mezzanine.mobile",
 )
 
 # List of middleware classes to use. Order is important; in the request phase,
@@ -336,4 +336,6 @@ except ImportError:
     pass
 else:
     set_dynamic_settings(globals())
+
+
 
