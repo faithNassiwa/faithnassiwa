@@ -13,12 +13,21 @@
   gtag('config', 'UA-114346087-1');
 </script>
 
+<!-- Google AdSense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-1646528601194356",
+    enable_page_level_ads: true
+  });
+</script>
+
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="{% block meta_keywords %}{% endblock %}">
 <meta name="description" content="{% block meta_description %}{% endblock %}">
 <title>{% block meta_title %}{% endblock %}{% if settings.SITE_TITLE %} | {{ settings.SITE_TITLE }}{% endif %}</title>
-<link rel="shortcut icon" href="{% static "img/favicon.ico" %}">
+<link rel="shortcut icon" href="{% static "img/logo2.png" %}">
 
 {% ifinstalled mezzanine.blog %}
 <link rel="alternate" type="application/rss+xml" title="RSS" href="{% url "blog_post_feed" "rss" %}">
@@ -71,7 +80,7 @@
 <body id="{% block body_id %}body{% endblock %}">
 <div id="wrapper">
 	<header>
-<div class="navbar navbar-default navbar-static-top" role="navigation">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 <div class="container">
 <div class="navbar-header">
    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -182,7 +191,7 @@
             <hr/>
 
             <div class="row">
-                <div class="col-lg-3"></div>
+                <div class="col-lg-4"></div>
                 <div class="col-lg-4">
                     <ul class="social-network">
                                 <li><a title="@faithNassiwa" data-placement="top" href="https://github.com/faithNassiwa"
@@ -202,7 +211,7 @@
 
                             </ul>
                 </div>
-                <div class="col-lg-5"></div>
+                <div class="col-lg-4"></div>
             </div>
             <hr/>
 
