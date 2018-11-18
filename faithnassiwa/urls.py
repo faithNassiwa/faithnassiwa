@@ -95,6 +95,8 @@ urlpatterns += [
 
     # ("^%s/" % settings.SITE_PREFIX, include("mezzanine.urls"))
 
+    url(r'^robots\.txt', include('robots.urls')),
+
 
 ]
 
