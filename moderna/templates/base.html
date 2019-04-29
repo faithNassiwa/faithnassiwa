@@ -188,46 +188,37 @@
 
 <footer >
     <div class="container" >
-    {% page_menu "pages/menus/footer.html" %}
         <div id="sub-footer">
-            <hr/>
-
             <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
+                     <p>
+                         &copy; {% now 'Y' %} <a target="_blank" href="https://faithnassiwa.com">Faith Nassiwa</a>.
+                         All rights reserved
+                     </p>
+                </div>
+                <div class="col-lg-3" >
                     <ul class="social-network">
                                 <li><a title="@faithNassiwa" data-placement="top" href="https://github.com/faithNassiwa"
-                                       data-original-title="Github"><i class="fa fa-github fa-3x"></i></a></li>
+                                       data-original-title="Github"><i class="fa fa-github fa-2x"></i></a></li>
                                 <li><a title="@FaithNassiwa" data-placement="top"
                                        href="https://twitter.com/FaithNassiwa" data-original-title="Twitter">
-                                    <i class="fa fa-twitter fa-3x"></i></a></li>
+                                    <i class="fa fa-twitter fa-2x"></i></a></li>
                                 <li><a title="Faith Nassiwa" data-placement="top"
                                        href="https://www.linkedin.com/in/faith-nassiwa/" data-original-title="Linkedin">
-                                        <i class="fa fa-linkedin fa-3x"></i></a></li>
+                                        <i class="fa fa-linkedin fa-2x"></i></a></li>
                                 <li><a title="FaithNassiwa" data-placement="top"
                                        href="https://www.facebook.com/faithnassiwa" data-original-title="Facebook">
-                                    <i class="fa fa-facebook fa-3x"></i></a></li>
-        {#						<li><a title="" data-placement="top" href="#" data-original-title="Medium">#}
-        {#                            <i class="fa fa-medium"></i></a></li>#}
+                                    <i class="fa fa-facebook fa-2x"></i></a></li>
+        						<li><a title="@faith_nassiwa" data-placement="top"
+                                       href="https://www.instagram.com/faith_nassiwa/" data-original-title="Instagram">
+                                    <i class="fa fa-instagram fa-2x"></i></a></li>
 
 
-                            </ul>
+                    </ul>
                 </div>
-                <div class="col-lg-4"></div>
-            </div>
-            <hr/>
-
-            <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4">
-                    <div class="copyright" style="text-align: center">
-                                <p>
-                                    &copy;<a target="_blank" href="https://faithnassiwa.com">Faith Nassiwa</a>.
-                                   All rights reserved
-                                </p>
-                            </div>
-                        </div>
-                <div class="col-lg-4"></div>
+                <div class="col-lg-6">
+                     {% page_menu "pages/menus/footer.html" %}
+                </div>
             </div>
         </div>
     </div>
